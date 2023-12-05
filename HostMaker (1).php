@@ -4,7 +4,7 @@
 #تابع لقناة @SeroBots
 <?php
 ob_start();
-$token = "5056561526:AAGwbwvCKI2A4HBY5Djb7vZlIpP6b2ZHUmw"; 
+$token = "6890976983:AAG5dYL7FQd2Ijys9p60KrMWHP0FEtaPrNo"; 
 define("API_KEY",$token);
 echo file_get_contents("https://api.telegram.org/bot" . API_KEY . "/setwebhook?url=" . $_SERVER['SERVER_NAME'] . "" . $_SERVER['SCRIPT_NAME']);
 function bot($method,$datas=[]){
